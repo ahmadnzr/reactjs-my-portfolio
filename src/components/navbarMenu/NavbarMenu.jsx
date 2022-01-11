@@ -2,7 +2,10 @@ import style from "./NavbarMenu.module.css";
 
 const NavbarMenu = ({ onMenuBurgerClicked, clickedMenu }) => {
   return (
-    <div className={`${style.navbarMenu} ${clickedMenu && style.showMenu}`}>
+    <div
+      className={`${style.navbarMenu} ${clickedMenu && style.showMenu}`}
+      onClick={onMenuBurgerClicked}
+    >
       <a href="#about" className={style.menuItem} onClick={onMenuBurgerClicked}>
         About
       </a>

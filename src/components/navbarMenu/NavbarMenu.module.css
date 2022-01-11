@@ -22,3 +22,14 @@
 .showMenu {
   right: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .navbarMenu {
+    width: 100vw;
+    right: -100vw;
+  }
+
+  .showMenu {
+    right: 0;
+  }
+}

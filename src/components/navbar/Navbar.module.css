@@ -16,6 +16,7 @@
 
 .navbarBg {
   background-color: var(--color-tree);
+  border-bottom: 2px solid var(--text-color-two);
 }
 
 .textLogo {
@@ -40,4 +41,10 @@
 
 .rotate {
   transform: rotate(90deg);
+}
+
+@media screen and (max-width: 480px) {
+  .textLogo {
+    font-size: 1.3rem;
+  }
 }

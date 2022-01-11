@@ -78,18 +78,42 @@
 }
 
 .lingkaran {
-  width: 600px;
-  height: 600px;
+  width: 45vw;
+  height: 45vw;
   background-color: var(--color-two);
   border-radius: 50%;
 }
 
 .photo {
   position: absolute;
-  height: 450px;
+  height: 40vw;
   bottom: 300px;
+  object-fit: cover;
   left: 50%;
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   transform: translateX(-50%);
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    display: block;
+    text-align: center;
+  }
+  .lingkaran {
+    width: 500px;
+    height: 500px;
+  }
+
+  .photo {
+    height: 350px;
+    bottom: 300px;
+  }
+  .introRight {
+    display: none;
+  }
+  .introLeft {
+    font-size: 1.7rem;
+    display: block;
+  }
 }
