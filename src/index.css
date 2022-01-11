@@ -1,5 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap");
 
+:root {
+  --color-one: #041c32;
+  --color-two: #04293a;
+  --color-tree: #064663;
+  --text-color-one: #ecb365;
+  --text-color-two: #ffffff;
+}
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
@@ -9,4 +16,13 @@ body {
 
 a {
   text-decoration: none;
+}
+
+button {
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  border: none;
 }

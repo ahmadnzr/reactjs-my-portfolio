@@ -1,12 +1,13 @@
-import "./App.css";
+import style from "./App.module.css";
+import Intro from "./components/intro/Intro";
 import Navbar from "./components/navbar/Navbar";
 
 function App() {
   return (
-    <div className="App">
+    <div className={style.App}>
       <Navbar />
-      <div style={{ height: "100vh" }}></div>
-      <div style={{ height: "100vh" }}></div>
+      <Intro />
+      <div style={{ height: `100vh` }} />
     </div>
   );
 }
