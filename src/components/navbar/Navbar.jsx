@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className={style.navbar}>
+      <div className={`${style.navbar} ${clickedMenu && style.navbarBg}`}>
         <div />
         <span className={style.textLogo}>My Portofolio</span>
         <div

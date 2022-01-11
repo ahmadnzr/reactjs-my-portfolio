@@ -1,6 +1,6 @@
 .navbarMenu {
   height: calc(100vh - 50px);
-  background-color: tomato;
+  background-color: var(--color-tree);
   transition: all 1s ease;
   width: 30vw;
   position: fixed;
@@ -10,10 +10,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  z-index: 4;
 }
 
 .menuItem {
-  color: white;
+  color: var(--text-color-one);
   font-size: 1.5rem;
   font-weight: 600;
 }
