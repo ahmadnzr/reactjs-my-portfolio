@@ -1,15 +1,18 @@
+import { Routes, Route } from "react-router-dom";
 import style from "./App.module.css";
-import Intro from "./components/intro/Intro";
 import Navbar from "./components/navbar/Navbar";
-import Portfolio from "./components/portfolio/Portfolio";
+import Home from "./pages/home/Home";
+import PortfolioList from "./pages/portfolioList/PortfolioList";
 
 function App() {
   return (
     <div className={style.App}>
       <Navbar />
-      <Intro />
-      <Portfolio />
-      <div style={{ height: `100vh` }} />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/portfolio" element={<PortfolioList />} />
+      </Routes>
+      <div>ini footer</div>
     </div>
   );
 }

@@ -1,0 +1,10 @@
+.portfolioList {
+  min-height: calc(100vh - 50px);
+  background-color: var(--color-two);
+}
+
+.wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}

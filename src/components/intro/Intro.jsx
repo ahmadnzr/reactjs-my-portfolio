@@ -1,6 +1,6 @@
 import style from "./Intro.module.css";
-import photo from '../../assets/images/photo.png'
-import doubleQoutes from '../../assets/images/double-qoutes.png'
+import photo from "../../assets/images/photo.png";
+import doubleQoutes from "../../assets/images/double-qoutes.png";
 
 const Intro = () => {
   return (

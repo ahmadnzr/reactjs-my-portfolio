@@ -1,6 +1,7 @@
 import style from "./Portfolio.module.css";
 import PortfolioItem from "../portfolioItem/PortfolioItem";
 import { portfolio } from "../../assets/portfolio";
+import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   const shuffleItem = (array) => {
@@ -10,15 +11,19 @@ const Portfolio = () => {
     }
     return array;
   };
-  
+
   return (
     <div className={style.portfolio} id="portfolio">
       <div className={style.wrapper}>
-        {shuffleItem(portfolio).slice(0, 4).map((item) => (
-          <PortfolioItem key={item.id} item={item} />
-        ))}
+        {shuffleItem(portfolio)
+          .slice(0, 4)
+          .map((item) => (
+            <PortfolioItem key={item.id} item={item} />
+          ))}
       </div>
-      <button className={style.showAll}>show all portfolio</button>
+      <Link to={`/portfolio`}>
+        <button className={style.showAll}>show all portfolio</button>
+      </Link>
     </div>
   );
 };

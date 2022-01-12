@@ -7,7 +7,7 @@
   --text-color-one: #ecb365;
   --text-color-two: #ffffff;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 body {
