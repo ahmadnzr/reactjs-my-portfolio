@@ -58,3 +58,15 @@
   font-weight: 500;
   color: var(--color-one);
 }
+
+@media screen and (max-width: 768px) {
+  .item {
+    margin: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .item {
+    margin: 10px 20px;
+  }
+}

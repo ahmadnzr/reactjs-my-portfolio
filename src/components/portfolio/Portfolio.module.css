@@ -25,3 +25,17 @@
   border: 1px solid var(--text-color-one);
   color: var(--text-color-one);
 }
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 10px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    padding: 20px;
+    grid-template-columns: 1fr;
+  }
+}
