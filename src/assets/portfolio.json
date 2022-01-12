@@ -6,7 +6,7 @@
       "repo": "https://github.com/ahmadnzr/reactjs-my-portfolio",
       "web": "https://ahmadnzr.github.io/reactjs-my-portfolio/"
     },
-    "image": "/images/portfolio/portfolio-reactjs.png",
+    "image": "images/portfolio/portfolio-reactjs.png",
     "category": ["reactjs", "portfolio", "website"],
     "sortDesc": "Website portfolio yang dibangun dengan reactjs. website dapat responsive di berbagai perangkat",
     "longDesc": "Website portfolio sangat dibutuhkan sebagai dokumentasi dari apa yang menarik dari kita. website ini dibuat dengan reactjs, css, dll. website sudah responsive di berbagai device. jika ada tertarik dengan website ini, silahkan menuju link repository dan kembangkan sesuka anda. Terimakasih 😁😁😁"
@@ -18,7 +18,7 @@
       "repo": "https://github.com/ahmadnzr/nextjs-personal-agency-website",
       "web": "https://modest-bohr-90f91c.netlify.app/"
     },
-    "image": "/images/portfolio/agency-website.png",
+    "image": "images/portfolio/agency-website.png",
     "category": ["nextJS", "website"],
     "sortDesc": "Contoh website dengan nextjs, website agency, cara routing di nextjs, cara handle api di nextjs, dll.",
     "longDesc": "Contoh website dengan nextjs, website agency, cara routing di nextjs, cara handle api di nextjs, dll.. Terimakasih 😁😁😁"
@@ -30,7 +30,7 @@
       "repo": "https://github.com/ahmadnzr/reactjs-form-handling",
       "web": "https://determined-swirles-ca395f.netlify.app/"
     },
-    "image": "/images/portfolio/form-handling.png",
+    "image": "images/portfolio/form-handling.png",
     "category": ["reactjs", "form-handling"],
     "sortDesc": "Form handling dengan reactjs, html, dan css. tanpa ada bantuan library lain",
     "longDesc": "Form handling dengan reactjs, html, dan css. tanpa ada bantuan library lain. Terimakasih 😁😁😁"
@@ -42,7 +42,7 @@
       "repo": "https://github.com/ahmadnzr/reactjs-status-covid",
       "web": "https://reactjs-status-covid.vercel.app/"
     },
-    "image": "/images/portfolio/dashboard-covid.png",
+    "image": "images/portfolio/dashboard-covid.png",
     "category": ["reactjs", "dashboard", "api", "website"],
     "sortDesc": "Dashboard covid 19 dengan reactjs, data dari api. menampilkan grafik status covid 19",
     "longDesc": "Dashboard covid 19 dengan reactjs, data dari api. menampilkan grafik status covid 19. Terimakasih 😁😁😁"
