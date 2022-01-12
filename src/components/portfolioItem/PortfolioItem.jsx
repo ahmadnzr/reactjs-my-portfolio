@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import style from "./PortfolioItem.module.css";
 // import projectImage from "../../assets/images/project.png";
 
@@ -17,7 +18,9 @@ const PortfolioItem = ({ item }) => {
       <div className={style.itemDesc}>
         <p style={{ margin: 0 }}>{item.sortDesc}</p>
       </div>
-      <div className={style.itemFooter}>Show detail</div>
+      <Link className={style.itemFooter} to={`/portfolio/${item.id}`}>
+        Show Detail
+      </Link>
     </div>
   );
 };
