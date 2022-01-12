@@ -8,3 +8,15 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
