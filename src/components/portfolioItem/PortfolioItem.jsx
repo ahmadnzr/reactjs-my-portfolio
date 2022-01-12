@@ -10,7 +10,7 @@ const PortfolioItem = ({ item }) => {
       <div className={style.category}>
         {item.category.map((c, index) => (
           <span className={style.catItem} key={index}>
-            {c}{" "}
+            #{c}{" "}
           </span>
         ))}
       </div>
