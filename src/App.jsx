@@ -8,7 +8,7 @@ import PortfolioList from "./pages/portfolioList/PortfolioList";
 function App() {
   return (
     <div className={style.App}>
-      {/* <Navbar /> */}
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<PortfolioList />} />

@@ -4,7 +4,7 @@ import style from "./Navbar.module.css";
 
 const Navbar = () => {
   const [clickedMenu, setClickedMenu] = useState(false);
-  const [title, setTitle] = useState("Intro");
+  const [title, setTitle] = useState("Home");
 
   const onMenuBurgerClicked = () => {
     setClickedMenu(!clickedMenu);
@@ -12,23 +12,18 @@ const Navbar = () => {
 
   return (
     <>
-      <div className={`${style.navbar} ${clickedMenu && style.navbarBg}`}>
-        <div />
-        <span className={style.textLogo}>{title}</span>
-        <div
-          className={`${style.burgerButton} ${clickedMenu && style.rotate}`}
-          onClick={onMenuBurgerClicked}
-        >
-          <div className={style.line} />
-          <div className={style.line} />
-          <div className={style.line} />
-        </div>
+      <div
+        className={`${style.burgerButton} ${clickedMenu && style.rotate}`}
+        onClick={onMenuBurgerClicked}
+      >
+        <div className={style.line} />
+        <div className={style.line} />
+        <div className={style.line} />
       </div>
 
       <NavbarMenu
         onMenuBurgerClicked={onMenuBurgerClicked}
         clickedMenu={clickedMenu}
-        setTitle={setTitle}
       />
     </>
   );

@@ -1,5 +1,5 @@
 .intro {
-  height: calc(100vh - 50px);
+  height: 100vh;
   position: relative;
   overflow: hidden;
   color: var(--text-color-one);

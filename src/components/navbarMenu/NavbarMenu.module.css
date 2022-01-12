@@ -1,5 +1,5 @@
 .navbarMenu {
-  height: calc(100vh - 50px);
+  height: 100vh;
   background-color: var(--color-tree);
   transition: all 1s ease;
   width: 30vw;

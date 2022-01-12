@@ -1,43 +1,28 @@
+import { Link } from "react-router-dom";
 import style from "./NavbarMenu.module.css";
 
-const NavbarMenu = ({ onMenuBurgerClicked, clickedMenu, setTitle }) => {
-  const onClickMenu = (menu) => {
+const NavbarMenu = ({ onMenuBurgerClicked, clickedMenu }) => {
+  const onClickMenu = () => {
     onMenuBurgerClicked();
-    setTitle(menu);
   };
+
   return (
     <div
       className={`${style.navbarMenu} ${clickedMenu && style.showMenu}`}
       onClick={onMenuBurgerClicked}
     >
-      <a
-        href="#intro"
-        className={style.menuItem}
-        onClick={() => onClickMenu("Intro")}
-      >
-        Intro
-      </a>
-      <a
-        href="#portfolio"
-        className={style.menuItem}
-        onClick={() => onClickMenu("Portfolio")}
-      >
+      <Link to={`/`} className={style.menuItem} onClick={onClickMenu}>
+        Home
+      </Link>
+      <Link to={`/portfolio`} className={style.menuItem} onClick={onClickMenu}>
         Portfolio
-      </a>
-      <a
-        href="#timeline"
-        className={style.menuItem}
-        onClick={() => onClickMenu("Time Line")}
-      >
+      </Link>
+      <Link to={`/`} className={style.menuItem} onClick={onClickMenu}>
         Time Line
-      </a>
-      <a
-        href="#contact"
-        className={style.menuItem}
-        onClick={() => onClickMenu("Contact")}
-      >
+      </Link>
+      <Link to={`/`} className={style.menuItem} onClick={onClickMenu}>
         Contact
-      </a>
+      </Link>
     </div>
   );
 };
