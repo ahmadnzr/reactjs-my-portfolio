@@ -3,7 +3,7 @@ import photo from "../../assets/images/photo.png";
 import doubleQoutes from "../../assets/images/double-qoutes.png";
 const Intro = () => {
   return (
-    <div className={style.intro}>
+    <div className={style.intro} id="intro">
       <div className={style.introLeft}>
         <p>
           Hi, <br /> Saya <span className={style.nama}>Nizar</span>
