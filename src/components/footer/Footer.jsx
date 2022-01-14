@@ -45,18 +45,24 @@ const Footer = () => {
         </p>
         <div className={style.content}>
           <div className={style.social}>
-            <span className={style.item}>
-              <BsInstagram className={style.icon} />
-            </span>
-            <span className={style.item}>
-              <BsFacebook className={style.icon} />
-            </span>
+            <a href="https://www.instagram.com/ahmadnzr__/" target="_blank">
+              <span className={style.item}>
+                <BsInstagram className={style.icon} />
+              </span>
+            </a>
+            <a href="https://web.facebook.com/ahmad.nizarRpl/" target="_blank">
+              <span className={style.item}>
+                <BsFacebook className={style.icon} />
+              </span>
+            </a>
             <span className={style.item}>
               <BsYoutube className={style.icon} />
             </span>
-            <span className={style.item}>
-              <BsLinkedin className={style.icon} />
-            </span>
+            <a href="https://www.linkedin.com/in/ahmadnzr/" target="_blank">
+              <span className={style.item}>
+                <BsLinkedin className={style.icon} />
+              </span>
+            </a>
           </div>
           <div className={style.copyright}>
             <span>© 2022 ahmad nizar</span>

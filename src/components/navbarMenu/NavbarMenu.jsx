@@ -17,7 +17,7 @@ const NavbarMenu = ({ onMenuBurgerClicked, clickedMenu }) => {
       <Link to={`/portfolio`} className={style.menuItem} onClick={onClickMenu}>
         Portfolio
       </Link>
-      <Link to={`/`} className={style.menuItem} onClick={onClickMenu}>
+      <Link to={`/timeline`} className={style.menuItem} onClick={onClickMenu}>
         Time Line
       </Link>
       <Link to={`/`} className={style.menuItem} onClick={onClickMenu}>

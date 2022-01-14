@@ -15,6 +15,20 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<PortfolioList />} />
         <Route path="/portfolio/:id" element={<PortfolioDetail />} />
+        <Route
+          path="/timeline"
+          element={
+            <div
+              style={{
+                minHeight: "calc(100vh - 200px)",
+                backgroundColor: "var(--color-two)",
+                color: "white"
+              }}
+            >
+              Timeline
+            </div>
+          }
+        />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
