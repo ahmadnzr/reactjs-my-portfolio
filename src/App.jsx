@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import style from "./App.module.css";
+import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
 import PortfolioDetail from "./pages/portfolioDetail/PortfolioDetail";
@@ -14,7 +15,7 @@ function App() {
         <Route path="/portfolio" element={<PortfolioList />} />
         <Route path="/portfolio/:id" element={<PortfolioDetail />} />
       </Routes>
-      <div>ini footer</div>
+      <Footer />
     </div>
   );
 }
